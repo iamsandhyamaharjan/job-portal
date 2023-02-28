@@ -22,36 +22,40 @@ import { BiTime } from 'react-icons/bi';
 
 export default function Footer() {
   return (
-    <>
 
-      <div className=" d-flex justify-content-around bg-dark text-white content">
 
-        <div className="text w-25"> <h2 className="pt-3 pb-3" style={{ fontSize: "40px" }} href="#">KHOJ</h2><p className='text-white' style={{ "fontFamily": 'Island Moments', 'fontSize': '20px' }}>Best place to find your dream job in Nepal. Khoj is a leading human resource consulting & jobs provider company that provides career-related opportunities from the top companies of Nepal for job seekers as per their expertise.</p></div>
+    <div className="row bg-dark text-white w-100 m-0 ">
 
-        <div className="text w-25"><br /><h2 className=' pb-3'>Follow & Subscribe Us</h2>
-          &ensp; &ensp;&ensp;&ensp;&ensp;<AiFillInstagram />&ensp;<FaFacebook />&ensp;<AiFillGithub />&ensp;<AiFillLinkedin />&ensp;<AiFillYoutube /><br /><br />
-          <h2 className='pb-3'>Subscribe Now</h2>
-          <form className="row g-3">
-
-            <div className="col-auto">
-              <label htmlFor="inputPassword2" className="visually-hidden">Email</label>
-              <input type="password" className="form-control" id="inputPassword2" placeholder="Your Email" />
-            </div>
-            <div className="col-auto">
-              <button type="submit" className="btn btn-primary mb-3">Send</button>
-            </div>
-          </form>
-          <p className='text-white'>Subscribe Khoj Job Board and get latest updates daily.</p>
-        </div>
-        <div className="text"><br />
-          <h2 className='text-center pb-4'>Contact us</h2><ul className='list-group'>
-            <li className='list-group-item'><BsFillHouseDoorFill />Kalimati,Kathmandu</li>
-            <li className='list-group-item'><AiFillPhone />Contact-number:9768579947</li>
-            <li className='list-group-item'><HiOutlineMail />khoj@gmail.com</li>
-            <li className='list-group-item'><BiTime />10:00am to 6:00pm</li>
-          </ul></div>
-
+      <div className="col-sm-4">
+        <h2 className=" pb-3 pl-2 pt-3 text-center" style={{ fontSize: "40px" }} href="#">KHOJ</h2>
+        <p className='text-white text-center' style={{ "fontFamily": 'Island Moments', 'fontSize': '20px' }}>Best place to find your dream job in Nepal. Khoj is a leading human resource consulting & jobs provider company that provides career-related opportunities from the top companies of Nepal for job seekers as per their expertise.</p>
       </div>
-    </>
+
+      <div className="col-sm-4 text-center"><br />
+        <h1 className=' pb-3' style={{ fontSize: "35px" }}>Follow & Subscribe Us</h1>
+        &ensp; &ensp;&ensp;&ensp;&ensp;<AiFillInstagram />&ensp;<FaFacebook />&ensp;<AiFillGithub />&ensp;<AiFillLinkedin />&ensp;<AiFillYoutube /><br /><br />
+        <h2 className='pb-3'>Subscribe Now</h2>
+        <form className="row text-center ">
+
+          <div className="col-sm-3"></div>
+          <div className="col-sm-6 text-center d-flex">
+            {/* <label htmlFor="inputPassword2" className="visually-hidden">Email</label> */}
+            <input type="password" className="form-control text-center" id="inputPassword2" placeholder="Your Email" />
+          
+            &ensp;&ensp; <button type="submit" className="btn btn-primary ">Send</button>
+          </div>
+        </form><br/>
+        <p className='text-white'>Subscribe Khoj Job Board and get latest updates daily.</p>
+      </div>
+      <div className=" col-sm-4 "><br />
+        <h1 className='text-center pb-4' style={{ fontSize: "40px" }}>Contact us</h1><ul className='list-group'>
+          <li className='list-group-item text-center'><BsFillHouseDoorFill />Kalimati,Kathmandu</li>
+          <li className='list-group-item text-center'><AiFillPhone />Contact-number:9768579947</li>
+          <li className='list-group-item text-center'><HiOutlineMail />khoj@gmail.com</li>
+          <li className='list-group-item text-center'><BiTime />10:00am to 6:00pm</li>
+        </ul></div>
+    </div>
+
+
   )
 }

@@ -20,9 +20,9 @@ import { EmployerLogin } from "./components/EmployerLogin";
 function App() {
   return (
     <div className="App">
-    
+   
       <Navbar/>
-     
+
      <Routes>
 
         
@@ -47,7 +47,7 @@ function App() {
       </Routes>
       
       <Footer/>
-   
+      
     </div>
   );
 }

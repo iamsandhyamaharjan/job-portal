@@ -25,16 +25,17 @@ class Barchart extends Component {
 
   render() {
     return (
-    <div className='container p-5' style={{"margin-top":"7%" ,"margin-left":"30%"}}>
+    <div className='container p-5 w-100'>
 
         <div className="row">
-          <h1 style={{"marginLeft":"6%" , "marginBottom" :"2%"}}>Number Of Applications</h1>
+          <h1 className="text-center mb-5">Number Of Applications</h1>
           <div className="mixed-chart">
             <Chart
               options={this.state.options}
               series={this.state.series}
               type="bar"
-              width="500"
+              width="100%"
+              height="150%"
             />
           </div>
         </div>

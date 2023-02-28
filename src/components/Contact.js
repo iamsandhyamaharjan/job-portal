@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 
 export const Contact = () => {
   return (
-    <>
-    <div className='container d-flex justify-content-between ' style={{"margin-top":"7%"}}>
-        <div className="mapSection" style={{width:'20%'}}><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.5186930590735!2d85.31902561501522!3d27.701267082794544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19688077a1ff%3A0x3ea9b1c08b4234dc!2sMind%20Risers%20Consortium%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1667109256320!5m2!1sen!2snp" width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='hh'></iframe></div>
-        <div className="messageSection" style={{width:'50%'}}>
+    <div className='container'>
+    <div className=' row' style={{"margin-top":"7%", width:"100%"}}>
+        <div className="mapSection col-sm-4" style={{width:'50%'}}><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.5186930590735!2d85.31902561501522!3d27.701267082794544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19688077a1ff%3A0x3ea9b1c08b4234dc!2sMind%20Risers%20Consortium%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1667109256320!5m2!1sen!2snp" width = "100%"height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='hh'></iframe></div>
+        <div className="messageSection col-sm-8 m-0" style={{width:'50%'}}>
         {/* <!--Section: Contact v.2--> */}
 <section className="mb-4">
 
     {/* <!--Section heading--> */}
-    <h2 className="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <h2 className="h1-responsive font-weight-bold text-center ">Contact us</h2>
     {/* <!--Section description--> */}
     <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
         a matter of hours to help you.</p>
@@ -91,6 +91,6 @@ export const Contact = () => {
         </div>
 
     </div>
-    </>
+    </div>
   )
 }

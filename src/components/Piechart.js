@@ -37,9 +37,9 @@ class Piechart extends React.Component {
     return (
       
 
-<div id="chart" className="container p-5"  style={{ "marginTop": "5%" }}>
-  <h1>Active/Inactive Jobs</h1>
-<ReactApexChart options={this.state.options} series={this.state.series} type="pie" width={380} />
+<div id="chart" className="container p-5 w-100 mt-3 "  >
+  <h1 className="mb-5">Active/Inactive Jobs</h1>
+<ReactApexChart options={this.state.options} series={this.state.series} type="pie" width="40%" />
 </div>
 
 
