@@ -1,0 +1,288 @@
+[
+          {
+              "id" : 1,
+              "company":"Cotiviti",
+              "new": true,
+              "featured" :true,
+              "position" :" Frontend Developer",
+              "role":"Frontend",
+              "level":"Senior",
+              "postedAt":"1d ago",
+              "contract" :"Full Time",
+              "location":"kathmadu Only",
+              "languages":[{
+                  "skill":  "React"},
+                  {"skill": "Bootstrap"},
+                  {"skill":  "CSS"}],
+              "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhoW9sTxl4GuYRnnlxmB0SakvWNkCAMGzD5P0LivIVTxXp5KSUtLNLQteYEByUaktBQxw&usqp=CAU",
+              "des":""
+          },
+          {
+              "id" : 2,
+              "company":"Deerwalk",
+              "new": true,
+              "featured" :true,
+              "position" :"Fullstack Developer",
+              "role":"Frontend and Backend",
+              "level":"Senior",
+              "postedAt":"5d ago",
+              "contract" :"Full Time",
+              "location":"kathmadu Only",
+              "languages":[
+                  {
+                  "skill":  "HTML"},
+                  {"skill": "CSS"},
+                  {"skill":  "JavaScript"}],
+              "img":"http://deerwalk.com/images/deerwalk-logo.jpg"
+          },
+          {
+              "id" : 3,
+              "company":"Infinity",
+              "new": true,
+              "featured" :true,
+              "position" :"Backend Developer",
+              "role":"Frontend",
+              "level":"Senior",
+              "postedAt":"1d ago",
+              "contract" :"Full Time",
+              "location":"kathmadu Only",
+              "languages":[{
+                  "skill":  "Express.js"},
+                  {"skill": "Node.js"},
+                  {"skill":  "MangoDB"}],
+              "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScpVlPSMYZwr1ZsDlueq1nVcwDYjM4MyQcGg&usqp=CAU"
+          },
+          {
+              "id" : 4,
+              "company":"Kishora",
+              "logo":"",
+              "new": true,
+              "featured" :true,
+              "position" :"Accountant",
+              "role":"Frontend",
+              "level":"Senior",
+              "postedAt":"1d ago",
+              "contract" :"Full Time",
+              "location":"kathmadu Only",
+              "languages":[{
+                  "skill":  "HTML"},
+                  {"skill": "CSS"},
+                  {"skill":  "JavaScript"}],
+                  "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm76XoSy0vee4MvSerm6U5U_5W6e7TT-2J-g&usqp=CAU"
+          },
+          {
+              "id" : 5,
+              "company":"Leapfrog",
+              "logo":"",
+              "new": true,
+              "featured" :true,
+              "position" :"Frontend Developer",
+              "role":"Frontend",
+              "level":"Senior",
+              "postedAt":"1d ago",
+              "contract" :"Full Time",
+              "location":"kathmadu Only",
+              "languages":[{
+                  "skill":  "HTML"},
+                  {"skill": "CSS"},
+                  {"skill":  "JavaScript"}],
+                  "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm76XoSy0vee4MvSerm6U5U_5W6e7TT-2J-g&usqp=CAU"
+          },
+          {
+              "id" : 6,
+              "company":"Info-tech",
+              "logo":"",
+              "new": true,
+              "featured" :true,
+              "position" :"Frontend Developer",
+              "role":"Frontend",
+              "level":"Senior",
+              "postedAt":"1d ago",
+              "contract" :"Full Time",
+              "location":"kathmadu Only",
+              "languages":[{
+                "skill":  "HTML"},
+                {"skill": "CSS"},
+                {"skill":  "JavaScript"}],
+                "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_wNk1Dd1fZHB4lN5ywlG8rc3KW2yJLuk7JQ&usqp=CAU"
+          },
+          {
+              "id" : 7,
+              "company":"Lenovo",
+              "logo":"",
+              "new": true,
+              "featured" :true,
+              "position" :"Frontend Developer",
+              "role":"Frontend",
+              "level":"Senior",
+              "postedAt":"1d ago",
+              "contract" :"Full Time",
+              "location":"kathmadu Only",
+              "languages":[{
+                  "skill":  "HTML"},
+                  {"skill": "CSS"},
+                  {"skill":  "JavaScript"}],
+              "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoHMpTphqAv7FvzvgeZLf5yFpnOSOhOg8kBw&usqp=CAU"
+          },
+          {
+              "id" : 8,
+              "company":" Kist",
+              "logo":"",
+              "new": true,
+              "featured" :true,
+              "position" :"Frontend Developer",
+              "role":"Frontend",
+              "level":"Senior",
+              "postedAt":"1d ago",
+              "contract" :"Full Time",
+              "location":"kathmadu Only",
+              "languages":[{
+                  "skill":  "HTML"},
+                  {"skill": "CSS"},
+                  {"skill":  "JavaScript"}],
+              "img":"https://www.cotiviti.com/hubfs/caspian/caspianArtboard.png?noresize"
+          },
+          {
+            "id" : 8,
+            "company":"Starbucks",
+            "logo":"",
+            "new": true,
+            "featured" :true,
+            "position" :"Waiter",
+            "role":"Waiter",
+            "level":"Fresher",
+            "postedAt":"1d ago",
+            "contract" :"Full Time",
+            "location":"kathmadu Only",
+            "languages":[{
+                "skill":  "Communication"},
+                {"skill": "Humble"}],
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXrOYPLTHlLcU-7ZHSfNcioExkSILmE7ckeA&usqp=CAU"
+        },
+        {
+            "id" : 9,
+            "company":"Cotiviti",
+            "logo":"",
+            "new": true,
+            "featured" :true,
+            "position" :"Frontend Developer",
+            "role":"Frontend",
+            "level":"Senior",
+            "postedAt":"1d ago",
+            "contract" :"Full Time",
+            "location":"kathmadu Only",
+            "languages":[{
+                "skill":  "HTML"},
+                {"skill": "CSS"},
+                {"skill":  "JavaScript"}],
+            "img":"https://www.cotiviti.com/hubfs/caspian/caspianArtboard.png?noresize"
+        },
+    
+        {
+            "id" : 10,
+            "company":" Kist",
+            "logo":"",
+            "new": true,
+            "featured" :true,
+            "position" :"Farmer",
+            "role":"Frontend",
+            "level":"Senior",
+            "postedAt":"1d ago",
+            "contract" :"Full Time",
+            "location":"kathmadu Only",
+            "languages":[{
+                "skill":  "Agriculture Knowledge"},
+                {"skill": "Technical Skills"}],
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT99h0BZfW6WjR7SSXugWmbqB2hrAwW2hLLLw&usqp=CAU"
+        },
+        {
+            "id" : 11,
+            "company":"Amazon",
+            "logo":"",
+            "new": true,
+            "featured" :true,
+            "position" :"Salesperson",
+            "role":"Frontend",
+            "level":"Senior",
+            "postedAt":"1d ago",
+            "contract" :"Full Time",
+            "location":"kathmadu Only",
+            "languages":[{
+                "skill":  "Communication Skills"},
+                {"skill": "Listening Skills"}],
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ljnbCjbQ8FyKWWkk-zh9u2m6eCbQ17atiA&usqp=CAU"
+        },
+    
+    
+    
+    
+        {
+            "id" : 12,
+            "company":" Intel",
+            "logo":"",
+            "new": true,
+            "featured" :true,
+            "position" :"Graphic Designer",
+            "role":"Frontend",
+            "level":"Senior",
+            "postedAt":"1d ago",
+            "contract" :"Full Time",
+            "location":"kathmadu Only",
+            "languages":[{
+                "skill":  "Creativity"},
+                {"skill": "Designs"},
+                {"skill":  "Typography"}],
+            "img":"https://www.cotiviti.com/hubfs/caspian/caspianArtboard.png?noresize"
+        },
+    
+    
+    
+    
+        {
+            "id" : 13,
+            "company":" Kist",
+            "logo":"",
+            "new": true,
+            "featured" :true,
+            "position" :"Frontend Developer",
+            "role":"Frontend",
+            "level":"Senior",
+            "postedAt":"1d ago",
+            "contract" :"Full Time",
+            "location":"kathmadu Only",
+            "languages":[{
+                "skill":  "HTML"},
+                {"skill": "CSS"},
+                {"skill":  "JavaScript"}],
+            "img":"https://www.cotiviti.com/hubfs/caspian/caspianArtboard.png?noresize"
+        },
+    
+    
+    
+    
+        {
+            "id" : 14,
+            "company":"Universal",
+            "logo":"",
+            "new": true,
+            "featured" :true,
+            "position" :"Frontend Developer",
+            "role":"Frontend",
+            "level":"Senior",
+            "postedAt":"1d ago",
+            "contract" :"Full Time",
+            "location":"kathmadu ,Pokhara",
+            "languages":[{
+                "skill":  "HTML"},
+                {"skill": "CSS"},
+                {"skill":  "JavaScript"}],
+            "img":"https://logos-world.net/wp-content/uploads/2022/01/Unilever-Logo.png"
+        }
+
+    
+    
+      
+    
+    
+    
+      ]
